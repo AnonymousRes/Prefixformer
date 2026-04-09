@@ -1,7 +1,3 @@
-# Prefixformer: Efficient Long-Range Modeling via Prefix Memory
-
-This repository contains the official anonymous source code, pre-trained models, and training logs for **Prefixformer**. 
-
 ## Acknowledgment
 This codebase is heavily based on and modified from the highly successful **[MEGA repository](https://github.com/facebookresearch/mega/blob/main/examples/mega/README.lra.md)**. We sincerely thank the authors of MEGA for their excellent open-source framework.
 
