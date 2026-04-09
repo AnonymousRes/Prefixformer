@@ -33,3 +33,15 @@ Run the script:
 ```bash
 cd run_lra
 bash listops.sh
+
+## What to do if you encounter errors (Alternative Execution)
+
+If you encounter any errors during training or inference when running this repository directly, you can easily resolve them by integrating our core files into the original MEGA repository.
+
+Simply follow these 3 steps:
+
+1. Copy `fairseq/models/lra/prefixformer_lra_encoder.py` from this repo and paste it into MEGA's `fairseq/models/lra/` directory.
+2. Copy `fairseq/modules/prefixformer_sentence_encoder_layer.py` from this repo and paste it into MEGA's `fairseq/modules/` directory.
+3. Copy `fairseq/models/lra/model.py` from this repo and **replace** the existing `model.py` in MEGA's `fairseq/models/lra/` directory.
+
+After replacing these specific files, you can directly run the models using MEGA's original pipeline without any issues.
