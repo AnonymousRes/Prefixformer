@@ -33,6 +33,7 @@ Run the script:
 ```bash
 cd run_lra
 bash listops.sh
+```
 
 ## What to do if you encounter errors (Alternative Execution)
 
