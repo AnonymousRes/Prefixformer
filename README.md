@@ -5,7 +5,8 @@ This is the PyTorch implementation of the Prefixformer paper.
   <img src="Prefixformer.png" alt="Prefixformer" width="888">
 </p>
 
-> [**Towards Efficient Long-Range Modeling via Prefix Memory Generation**](Under Review)  
+> [**Towards Efficient Long-Range Modeling via Prefix Memory Generation**]
+> (Under Review)
 
 
 ## Acknowledgment
